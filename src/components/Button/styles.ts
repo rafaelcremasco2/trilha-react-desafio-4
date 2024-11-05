@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { ButtonHTMLAttributes, MouseEventHandler } from 'react';
 
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<ButtonHTMLAttributes<HTMLButtonElement>>`
     width: 100%;
     height: 42px;
     background-color: #81259D;
